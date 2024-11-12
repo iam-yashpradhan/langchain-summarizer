@@ -12,7 +12,6 @@ def clean_text(text):
     text = re.sub(r'\[\d+\]', '', text)
     return text
 
-url = 'https://medium.com/feedzaitech/building-trust-in-a-digital-world-the-role-of-machine-learning-in-behavioral-biometrics-bb0da913d95a'
 
 def scraperAgent(url):
     tool = ScrapeWebsiteTool(website_url= url)
